@@ -40,4 +40,12 @@ fetch("https://api.github.com/users")
     document.getElementById("imge-10").setAttribute("src", data[9].avatar_url);
     document.getElementById("Name-10").innerText = data[9].login;
     document.getElementById("link-10").setAttribute("href", data[9].html_url);
+
+    document.getElementById("imge-11").setAttribute("src", data[10].avatar_url);
+    document.getElementById("Name-11").innerText = data[10].login;
+    document.getElementById("link-11").setAttribute("href", data[10].html_url);
+
+    document.getElementById("imge-12").setAttribute("src", data[11].avatar_url);
+    document.getElementById("Name-12").innerText = data[11].login;
+    document.getElementById("link-12").setAttribute("href", data[11].html_url);
   });

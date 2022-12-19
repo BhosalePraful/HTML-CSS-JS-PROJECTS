@@ -1,0 +1,37 @@
+/* mobile  */
+
+@media screen and (max-width: 390px) {
+ body{
+  overflow-x: hidden;
+ }
+
+ .img {
+  width: 15vw;
+}
+
+  .profile-Link {
+    width: 2rem;
+  }
+}
+
+/* tablet  */
+
+@media screen and (max-width: 820px) {
+ 
+  .card {
+    height: 40vh;
+    width: 48vw;
+    display: flex;
+    margin: 0 5px 0 5px;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 15vw;
+  }
+
+  .profile-Link {
+    width: 7rem;
+    padding: 1rem;
+  }
+}
